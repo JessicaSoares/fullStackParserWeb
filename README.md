@@ -1,4 +1,4 @@
-# fullStackParserWeb
+Sem problemas! Vamos atualizar o README para incluir essa informação.
 
 # Web Scraping e Aplicação Web
 
@@ -36,13 +36,21 @@ Isso executará o web scraping e populacionará a tabela `faturas` no banco de d
 
 ### 3. Configurando a API
 
-Navegue até a pasta `webapp` e execute o comando abaixo para instalar as dependências da API:
+Navegue até a pasta `webapp` e edite o arquivo `server.js`. Insira as credenciais corretas para a conexão com o banco de dados PostgreSQL no seguinte formato:
+
+```javascript
+const pool = new Pool({
+  connectionString: 'postgres://usuario:senha@host:porta/nome-do-banco', // String de conexão com o banco de dados PostgreSQL
+});
+```
+
+Em seguida, execute o comando abaixo para instalar as dependências da API:
 
 ```bash
 npm install
 ```
 
-Em seguida, inicie a API que fornecerá os dados do banco de dados:
+Inicie a API que fornecerá os dados do banco de dados:
 
 ```bash
 node server.js
