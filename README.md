@@ -29,7 +29,7 @@ Em seguida, execute o comando abaixo para instalar as dependências e iniciar o 
 
 ```bash
 npm install
-npm start
+node server.js
 ```
 
 Isso executará o web scraping e populacionará a tabela `faturas` no banco de dados com os dados coletados.
