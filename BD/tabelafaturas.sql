@@ -1,0 +1,23 @@
+CREATE TABLE faturas (
+	numero_cliente NUMERIC(12, 2),
+	 nome_cliente CHAR(5000),
+    mes_referencia NUMERIC(10, 2),
+    data_vencimento DATE,
+    valor_total NUMERIC(10, 2),
+    contrib_ilum_publica NUMERIC(10, 2),
+    unidade_eletr VARCHAR(10),
+    quantidade_eletr NUMERIC(10, 3),
+    preco_unitario_eletr NUMERIC(10, 8),
+    valor_eletr NUMERIC(10, 2),
+    unidade_injetada VARCHAR(10),
+    quantidade_injetada NUMERIC(10, 3),
+    preco_unitario_injetada NUMERIC(10, 8),
+    valor_injetada NUMERIC(10, 2),
+    tarifa_injetada NUMERIC(10, 8),
+    unidade_icms VARCHAR(10),
+    quantidade_icms NUMERIC(10, 3),
+    preco_unitario_icms NUMERIC(10, 8),
+    valor_icms NUMERIC(10, 2),
+    tarifa_icms NUMERIC(10, 8),
+    kw_mes NUMERIC(10, 8)
+)
