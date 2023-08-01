@@ -1,6 +1,6 @@
-Sem problemas! Vamos atualizar o README para incluir essa informação.
 
-# Web Scraping e Aplicação Web
+
+# Full Stack Web Scraping e Aplicação Web
 
 Este repositório contém uma aplicação que realiza web scraping para coletar dados de faturas e armazená-los em um banco de dados PostgreSQL. Em seguida, uma API é construída para acessar esses dados e uma aplicação web é fornecida para visualizá-los.
 
